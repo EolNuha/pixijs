@@ -3,6 +3,8 @@ import Header from '../components/HeaderComp.vue'
 import ImageSlider from '../components/ImageSlider.vue'
 import VideoComp from '../components/VideoComp.vue'
 import PixiJS from '../components/PixiJs.vue'
+import ContactUs from '../components/ContactUs.vue'
+
 </script>
 
 <template>
@@ -11,6 +13,7 @@ import PixiJS from '../components/PixiJs.vue'
     <ImageSlider />
     <VideoComp />
     <PixiJS />
+    <ContactUs />
   </div>
 </template>
 

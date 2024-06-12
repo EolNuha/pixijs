@@ -2,7 +2,7 @@
 import Header from '../components/HeaderComp.vue'
 import ImageSlider from '../components/ImageSlider.vue'
 import VideoComp from '../components/VideoComp.vue'
-
+import PixiJS from '../components/PixiJs.vue'
 </script>
 
 <template>
@@ -10,6 +10,7 @@ import VideoComp from '../components/VideoComp.vue'
   <div class="main">
     <ImageSlider />
     <VideoComp />
+    <PixiJS />
   </div>
 </template>
 

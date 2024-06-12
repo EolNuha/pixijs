@@ -1,5 +1,6 @@
 <script setup>
 import javascript from '@/assets/javascript.mp4'
+
 </script>
 
 <template>

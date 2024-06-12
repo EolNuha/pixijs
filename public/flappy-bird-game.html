@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flappy Bird Game</title>
+    <script type="module" crossorigin src="/assets/index-1b2901f1.js"></script>
+    <link rel="stylesheet" href="/assets/index-a9fcfc6d.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="navigation">
+        <a href="/">Home</a>
+        <a href="/flappy-bird-game.html" style="margin-left: auto">Flappy Bird</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#footer">About Us</a>
+      </div>
+      <div class="inner">
+        <div>
+          <h1>Flappy Bird Game</h1>
+          <p>Made with Pixi.js</p>
+        </div>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Ubtlogo.png" width="300" />
+      </div>
+      <div>
+        <svg
+          class="waves"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 24 150 28"
+          preserveAspectRatio="none"
+          shape-rendering="auto"
+        >
+          <defs>
+            <path
+              id="gentle-wave"
+              d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+            />
+          </defs>
+          <g class="parallax">
+            <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+            <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+            <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+            <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: center">
+      <div id="app"></div>
+    </div>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="grid grid-cols-1 md:grid-cols-2 py-10 gap-[30px] md:gap-0">
+          <div>
+            <h1 class="text-xl md:text-3xl">This is our web multimedia project</h1>
+            <p class="opacity-[0.7]">copyright © 2024</p>
+          </div>
+          <div>
+            <h1 class="text-xl md:text-3xl">Find me on other social media</h1>
+            <div class="flex">
+              <a href="https://www.linkedin.com/in/eolnuha/"
+                ><span class="icon icon-linkedin"></span
+              ></a>
+              <a href="https://github.com/eolnuha"><span class="icon icon-github"></span></a>
+              <a href="https://stackoverflow.com/users/14683130/eol-nuha"
+                ><span class="icon icon-stackoverflow"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const appDiv = document.getElementById('app')
+        const canvas = document.querySelector('canvas')
+
+        appDiv.appendChild(canvas)
+        console.log(canvas)
+      })
+    </script>
+  </body>
+</html>

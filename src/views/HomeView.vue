@@ -4,7 +4,7 @@ import ImageSlider from '../components/ImageSlider.vue'
 import VideoComp from '../components/VideoComp.vue'
 import PixiJS from '../components/PixiJs.vue'
 import ContactUs from '../components/ContactUs.vue'
-
+import Footer from '../components/FooterComp.vue'
 </script>
 
 <template>
@@ -15,6 +15,7 @@ import ContactUs from '../components/ContactUs.vue'
     <PixiJS />
     <ContactUs />
   </div>
+  <Footer />
 </template>
 
 <style lang="scss">

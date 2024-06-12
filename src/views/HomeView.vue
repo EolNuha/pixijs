@@ -1,12 +1,15 @@
 <script setup>
 import Header from '../components/HeaderComp.vue'
 import ImageSlider from '../components/ImageSlider.vue'
+import VideoComp from '../components/VideoComp.vue'
+
 </script>
 
 <template>
   <Header />
   <div class="main">
     <ImageSlider />
+    <VideoComp />
   </div>
 </template>
 
